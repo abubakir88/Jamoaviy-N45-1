@@ -1,0 +1,142 @@
+header {
+  background-color: #232536;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    .nav-items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      .nav-item {
+        display: flex;
+        gap: 32px;
+        a {
+          border-color: 3px solid transparent;
+          color: #fff;
+
+          /* Text link */
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 150% */
+          padding-top: 8px;
+          height: 100%;
+          align-items: center;
+          display: flex;
+          gap: 8px;
+          &:hover {
+            border-top: 3px solid #ffa155;
+            transition: 0.2s;
+            color: #ffa155;
+          }
+        }
+      }
+      .nav-btn {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        #dark-light {
+          background-color: transparent;
+          cursor: pointer;
+          border-radius: 44px;
+          overflow: hidden;
+          border: 0;
+          .l {
+            display: block;
+            margin-bottom: 1.5em;
+            font-size: 1em;
+            cursor: pointer;
+          }
+
+          .l {
+            background-color: rgb(0, 0, 0);
+            border-radius: 0.75em;
+            box-shadow: 0.125em 0.125em 0 0.125em rgba(0, 0, 0, 0.3) inset;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            margin: auto;
+            padding: 0.15em;
+            width: 3em;
+            height: 1.5em;
+            transition: background-color 0.1s 0.3s ease-out,
+              box-shadow 0.1s 0.3s ease-out;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+          }
+
+          .l:before,
+          .l:after {
+            content: "";
+            display: block;
+          }
+
+          .l:before {
+            background-color: #fff;
+            border-radius: 50%;
+            width: 1.2em;
+            height: 1.2em;
+            transition: background-color 0.1s 0.3s ease-out,
+              transform 0.3s ease-out;
+            z-index: 1;
+          }
+
+          .l:after {
+            background: linear-gradient(transparent 50%, rgb(255, 255, 255) 0) 0
+                50% / 50% 100%,
+              repeating-linear-gradient(
+                  90deg,
+                  #fff 0,
+                  #fff,
+                  #fff 20%,
+                  #fff 20%,
+                  #fff 40%
+                )
+                0 50% / 50% 100%,
+              radial-gradient(circle at 50% 50%, #ffffff 25%, transparent 26%);
+            background-repeat: no-repeat;
+            border: 0.25em solid transparent;
+            border-left: 0.4em solid #fff;
+            border-right: 0 solid transparent;
+            transition: border-left-color 0.4s 0.1s ease-out,
+              transform 0.1s ease-out;
+            transform: translateX(-22.5%);
+            transform-origin: 25% 50%;
+            width: 1.2em;
+            height: 1em;
+            box-sizing: border-box;
+          }
+          /* Checked */
+          .l:checked {
+            background-color: rgba(0, 0, 0, 0.45);
+            box-shadow: 0.125em 0.125em 0 0.125em rgba(0, 0, 0, 0.1) inset;
+          }
+
+          .l:checked:before {
+            background-color: currentColor;
+            transform: translateX(125%);
+          }
+
+          .l:checked:after {
+            border-left-color: currentColor;
+            transform: translateX(-2.5%) rotateY(180deg);
+          }
+          /* Other States */
+          .l:focus {
+            /* Usually an anti-A11Y practice but set to remove an annoyance just for this demo */
+            outline: 0;
+          }
+        }
+      }
+    }
+  }
+}
