@@ -1,0 +1,147 @@
+// @use "../themes";
+
+footer {
+  padding-top: 96px;
+  .ustuns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    .ustun-1 {
+      min-width: 250px;
+      h2 {
+        max-width: 452px;
+        color: #232536;
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 58px; /* 120.833% */
+        padding: 36px 0;
+      }
+      h4 {
+        color: #232536;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px; /* 150% */
+      }
+      p {
+        padding: 28px 0px 4px 0;
+        color: #232536;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 155.556% */
+      }
+      h6 {
+        padding-bottom: 14px;
+        color: #232536;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 155.556% */
+      }
+    }
+    .ustun-2 {
+      min-width: 230px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      h6 {
+        color: #232536;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 175% */
+        &:hover {
+          color: #ffd3af;
+          transition: 0.3s;
+          font-size: 18px;
+        }
+      }
+      p {
+        color: #232536;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 142.857% */
+        &:hover {
+          color: #ffd3af;
+          transition: 0.3s;
+          font-size: 16px;
+        }
+      }
+      a {
+        font-family: Poppins;
+        &:hover {
+          color: #ffd3af;
+          transition: 0.3s;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .ortiqcha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    p {
+      max-width: 206px;
+      color: #232536;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 142.857% */
+    }
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      &:hover p {
+        color: #ffd3af;
+        transition: 0.3s;
+      }
+    }
+  }
+  .foot-foot {
+    background-color: #ffe6d2;
+    margin-top: 64px;
+    .charchadim {
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .foot_foot-1 {
+        display: flex;
+        gap: 42px;
+        align-items: center;
+        p {
+          font-family: Poppins;
+          // font-size: 16px;
+        }
+      }
+      .foot_foot-2 {
+        display: flex;
+        gap: 16px;
+        a:hover svg {
+          //   width: 18px;
+          //   height: 18px;
+          path {
+            transition: 0.3s;
+            fill: #f3b17a;
+          }
+        }
+      }
+    }
+  }
+}
