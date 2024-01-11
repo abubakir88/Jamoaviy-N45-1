@@ -424,9 +424,12 @@ header {
   width: 100%;
   height: 370px;
   margin-top: 60px;
-  background-image: url("../../images/Company/Image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+.Company_page .vision-wrapper .vision-bottom img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
 }
 .Company_page .team-section {
   width: 100%;
@@ -582,6 +585,7 @@ header {
 }
 .Company_page .team-section .team-imgs .team-img div .icon {
   width: 50%;
+  height: auto;
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
@@ -610,4 +614,199 @@ header {
 }
 .Company_page .team-section .team-imgs .team-img:nth-child(8) {
   background-image: url("../../images/Company/Team 8.png");
+}
+
+@media screen and (max-width: 1340px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .Company_page .container {
+    width: 100%;
+  }
+  .Company_page .container .company-headr .color-wr {
+    width: 28%;
+  }
+  .Company_page .container .company-headr .company_header_img img {
+    width: 33.33%;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .Company_page .company-section {
+    height: auto;
+  }
+  .Company_page .company-section .container .company-section-wrapper {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-left {
+    width: 100%;
+    height: auto;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-right {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .Company_page .team-section .team-imgs {
+    justify-content: left;
+  }
+  .Company_page .team-section .team-imgs .team-img {
+    width: 33.33%;
+    margin-bottom: 30px;
+  }
+  .Company_page .team-section .from .from-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 990px) {
+  .Company_page .container .store-wrapper-w .story-logo {
+    justify-content: space-between;
+  }
+  .Company_page .container .store-wrapper-w .story-logo img {
+    width: 95px;
+  }
+}
+@media screen and (max-width: 745px) {
+  .Company_page .container .company-headr .company-h1 {
+    width: 100%;
+  }
+  .Company_page .container .company-headr .company-p_one {
+    width: 100%;
+  }
+  .Company_page .container .store-wrapper-w .story-logo {
+    justify-content: space-between;
+  }
+  .Company_page .container .store-wrapper-w .story-logo img {
+    width: 95px;
+  }
+  .Company_page .container .vision-wrapper .vision-top h1 {
+    width: 100%;
+  }
+  .Company_page .container .vision-wrapper .vision-top p {
+    width: 100%;
+  }
+  .Company_page .team-section h1 {
+    width: 100%;
+  }
+  .Company_page .team-section p {
+    width: 100%;
+  }
+  .Company_page .team-section .team-imgs {
+    justify-content: left;
+  }
+  .Company_page .team-section .team-imgs .team-img {
+    width: 50%;
+    margin-bottom: 30px;
+    background-position: center;
+  }
+  .Company_page .team-section .from {
+    height: 500px;
+  }
+  .Company_page .team-section .from .from-item div {
+    margin-top: 80px;
+  }
+  .Company_page .team-section .from .from-item h1 {
+    width: 100%;
+  }
+  .Company_page .team-section .from .from-item input {
+    width: 100%;
+  }
+  .Company_page .container .store-wrapper-w .store-wrapper {
+    flex-wrap: wrap;
+  }
+  .Company_page .container .store-wrapper-w .store-wrapper .store-item-left {
+    width: 100%;
+  }
+  .Company_page .container .store-wrapper-w .store-wrapper .store-item-right {
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+  }
+  .Company_page .container .store-wrapper-w .store-wrapper .store-item-right .store-item-right-wr div h1 {
+    font-size: 30px;
+  }
+  .Company_page .container .store-wrapper-w .store-wrapper .store-item-right .store-item-right-wr div p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .Company_page .company-section {
+    height: auto;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-left {
+    width: 100%;
+    height: auto;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-left h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-right .card-w1 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-right .card-w2 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-right .card-w3 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Company_page .company-section .container .company-section-wrapper .wrr {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Company_page .container .company-headr .company-h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .Company_page .container .company-headr .company-p_one {
+    width: 100%;
+  }
+  .Company_page .container .company-headr .company_header_img {
+    flex-wrap: wrap;
+  }
+  .Company_page .container .company-headr .company_header_img img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .Company_page .container .store-wrapper-w {
+    height: 100%;
+  }
+  .Company_page .container .store-wrapper-w .story-logo {
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .Company_page .container .store-wrapper-w .story-logo img {
+    width: 95px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .Company_page .company-section {
+    height: auto;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-right .card-w1 {
+    width: 320px;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-right .card-w2 {
+    width: 320px;
+  }
+  .Company_page .company-section .container .company-section-wrapper .company-section-right .card-w3 {
+    width: 320px;
+  }
+  .Company_page .company-section .container .company-section-wrapper .wrr {
+    width: 100%;
+  }
 }
