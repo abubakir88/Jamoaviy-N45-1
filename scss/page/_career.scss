@@ -1,3 +1,200 @@
 .Career_page {
+  @import "../themes/fonts";
   // Shu Yerdan Yozishni Boshlang Va Hamma Kodni Shuning Ichidan Yozing
+  .career__main {
+    padding: 96px 0px;
+    max-width: 1600px;
+    display: block;
+    text-align: center;
+    &__text-desc {
+      display: inline;
+      color: #232536;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    &__primary-text {
+      padding: 24px 0px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: #232536;
+      max-width: 624px;
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 58px;
+      @media (max-width: 400px) {
+        font-size: 35px;
+      }
+    }
+    &__second-desc {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 624px;
+      color: #232536;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    &__bg-img {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      padding-top: 40px;
+    }
+    &__link {
+      padding-top: 50px;
+      color: #232536;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+      @media (max-width: 400px) {
+        font-size: 12px;
+      }
+    }
+  }
+  .portifolio__box {
+    display: grid;
+    flex-wrap: nowrap;
+    max-width: 1100px;
+    padding: 78px 76px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    background-color: #ecf8f9;
+    @media (max-width: 1000px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 737px) {
+      grid-template-columns: 1fr;
+    }
+    @media (max-width: 450px) {
+      padding: 30px;
+    }
+    &__cards {
+      max-width: 354px;
+      height: 243px;
+      background-color: white;
+      &--theme {
+        padding: 48px 48px 10px 48px;
+        color: #232536;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        @media (max-width: 370px) {
+          padding: 30px 24px 12px 24px;
+        }
+      }
+      &--desc1 {
+        padding: 0px 0px 3px 48px;
+        color: #232536;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        @media (max-width: 370px) {
+          padding: 10px 20px;
+        }
+      }
+      &--desc2 {
+        padding: 0px 0px 52px 48px;
+        color: #232536;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        @media (max-width: 370px) {
+          padding: 10px 20px;
+        }
+      }
+      &--link p {
+        padding: 0px 0px 30px 48px;
+        color: #5d5fef;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        @media (max-width: 370px) {
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+  .our__work-culture {
+    &--head {
+      margin-top: 192px;
+      color: #000;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    &--theme {
+      max-width: 624px;
+      padding: 16px 0px 24px 0px;
+      color: #232536;
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 54px;
+    }
+    &--desc {
+      margin-bottom: 64px;
+      max-width: 622px;
+      color: #232536;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    @media (max-width: 1100px) {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0px;
+    }
+    @media (max-width: 750px) {
+      grid-template-columns: 1fr;
+      padding: 0px;
+    }
+    .card {
+      max-width: 418px;
+      height: 188px;
+      padding: 32px;
+      @media (max-width: 1100px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &__primary-text {
+        padding: 8px 0px;
+        color: #232536;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+      }
+      &__desc {
+        padding-bottom: 32px;
+        color: #232536;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
 }
