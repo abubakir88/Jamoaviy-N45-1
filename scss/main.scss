@@ -27,9 +27,11 @@ main {
 }
 
 .dark {
-  background-color: #111 !important;
+  background-color: #232536 !important;
+  transition: 0.8s;
 }
 
-.dark {
+.dark * {
   color: #ccc !important;
+  transition: 0.8ss;
 }
