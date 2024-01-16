@@ -1,3 +1,164 @@
 .Team_Page {
-  // Shu Yerdan Yozishni Boshlang Va Hamma Kodni Shuning Ichidan Yozing
+  .box {
+    margin: 0% auto;
+    width: 1600px;
+    height: 750px;
+    border: ie-hex-str($color: #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .melo {
+      width: 505px;
+      height: 594px;
+      border: var(--border);
+    }
+    .melo-logo {
+      margin-top: 10px;
+      width: 505px;
+      height: 320px;
+      border: var(--border);
+      display: flex;
+      justify-content: center;
+    }
+    .melo-tittle {
+      width: 505px;
+      height: 50px;
+      border: var(--border);
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 20px;
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+    }
+    .ceo {
+      width: 505px;
+      height: 20px;
+      border: var(--border);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+      font-family: "Poppins", sans-serif;
+      opacity: 50%;
+    }
+    .main-tittle {
+      width: 505px;
+      height: 60px;
+      border: var(--border);
+      text-align: center;
+      margin-top: 20px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .socials {
+      width: 505px;
+      height: 20px;
+      border: var(--border);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      margin-top: 30px;
+      color: white;
+    }
+  }
+  .blue-big {
+    width: 1600px;
+    height: 581px;
+    border: var(--border);
+    margin: 0% auto;
+    background-color: #ecf8f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .block-section {
+      width: 1600px;
+      height: 370px;
+      border: var(--border);
+
+      .blue-box {
+        width: 1600px;
+        height: 20px;
+        // border: var(--border);
+      }
+      .blue-box img {
+        margin-left: 120px;
+      }
+      .section-tittle {
+        width: 1600px;
+        height: 60px;
+        // border: var(--border);
+        margin-top: 10px;
+        font-family: "Poppins", sans-serif;
+      }
+      .section-tittle h1 {
+        margin-left: 120px;
+      }
+
+      .blue-all {
+        width: 1600px;
+        height: 248px;
+        // border: var(--border);
+        margin-top: 20px;
+        display: flex;
+      }
+      .blue-item {
+        width: 624px;
+        height: 248px;
+        // border: var(--border);
+        margin-left: 120px;
+        display: flex;
+        background-color: white;
+      }
+      .blue-img {
+        width: 296px;
+        height: 248px;
+        // border: var(--border);
+      }
+      .blue-text {
+        width: 328px;
+        height: 248px;
+        // border: var(--border);
+      }
+      .data {
+        width: 328px;
+        height: 20px;
+        // border: var(--border);
+        margin-top: 30px;
+      }
+      .data p {
+        margin-left: 25px;
+        font-family: "Poppins", sans-serif;
+        opacity: 60%;
+        font-size: 14px;
+      }
+      .blue-big-text {
+        width: 328px;
+        height: 108px;
+        // border: var(--border);
+        margin-top: 10px;
+        font-family: "Poppins", sans-serif;
+      }
+      .blue-big-text h3 {
+        margin-left: 25px;
+      }
+      .blue-icon {
+        width: 328px;
+        height: 25px;
+        // border: var(--border);
+      }
+      .blue-together {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 25px;
+        font-family: "Poppins", sans-serif;
+        color: #444cfc;
+      }
+    }
+  }
 }
