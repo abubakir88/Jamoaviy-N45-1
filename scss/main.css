@@ -2638,6 +2638,11 @@ header {
   padding-left: 50px;
 }
 
+.dark .company-section,
+.dark .our {
+  background-color: #232536;
+}
+
 .Privacy_page {
   padding-top: 44px;
 }
@@ -3690,5 +3695,5 @@ main {
 
 .dark * {
   color: #ccc !important;
-  transition: 0.8ss;
+  transition: 0.8s;
 }/*# sourceMappingURL=main.css.map */
